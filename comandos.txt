@@ -27,3 +27,10 @@ cd ..
 nano comandos.txt
 touch comandos.txt
 history
+nano comandos.txt
+git add .
+git commit -m "File commandos agregados."
+git remote add origin https://github.com/RogerJIR/libro.git
+git push origin master
+git status
+history
