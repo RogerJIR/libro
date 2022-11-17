@@ -1,0 +1,29 @@
+pwd
+cd Desktop/
+mkdir libro
+cd libro/
+git init
+git status
+nano indice.txt
+git status
+git add indice.txt
+touch indice.txt
+git status
+git commit -m "Añadido índice del libro."
+nano indice.txt
+git diff
+git commit -m "Añadido capítulo 3 sobre gestión de ramas"
+git add indice.txt
+git commit -m "Añadido capítulo 3 sobre gestión de ramas"
+git log
+mkdir capitulos
+cd capitulos/
+touch capitulo1.txt
+nano capitulo1.txt
+git add .
+git commit -m "Añadido capítulo 1."
+git log
+cd ..
+nano comandos.txt
+touch comandos.txt
+history
